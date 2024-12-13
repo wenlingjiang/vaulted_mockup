@@ -1,0 +1,564 @@
+body{
+	font-size: 20px;
+	line-height: 28px;
+	background: #191718;
+	color:#fff;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
+	letter-spacing: -.02em;
+	background-image: url('/wp-content/uploads/2024/10/body_background.png');
+	scroll-behavior: smooth;
+}
+
+a{
+	color: #DFB975;
+	text-decoration: none;
+}
+.main_logo {
+	padding: 60px 0;
+}
+h2{
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 600;
+	margin-bottom: 25px;
+	letter-spacing: -.03em;
+}
+h2 span{
+	color: #DFB975;
+}
+.mobile_view{
+	display: none;
+}
+.top_mobile_section,
+.btm_mobile_section{
+	display: none;
+}
+.inner_container{
+	max-width: 1098px;
+	margin:0 auto;
+}
+.gold_vaulted_btn {
+	display: inline-block;
+	text-decoration: none;
+	border: 2px solid #DFB975;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 700;
+	background: #DFB975;
+	color: #191718;
+	padding: 20px 27px;
+	border-radius: 8px;
+	transition:0.4s;
+	letter-spacing: -.02em;
+}
+.gold_vaulted_btn:hover {
+	border-color: #DFB975;
+	background: #191718;
+	color: #DFB975;
+	box-shadow: 0px 8px 32px 0px #DFB97540;
+}
+
+.bg_section {
+	padding: 290px 0;
+	background-size: cover;
+/*	background-position: left top;*/
+background-position: center;
+width:100%;
+height: 100vh;
+position: relative;
+}
+
+/* parallax css start */
+
+.parallax_wrapper {
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+}
+.parallax_target {
+	bottom: -100vh;
+}
+
+.parallax,
+.parallax_target {
+	position: absolute;
+	top: -100vh;
+	right: 0;
+	left: 0;
+}
+.parallax{
+	height: 200vh;
+}
+
+/* parallax css end */
+
+.bg_section a{
+	color:#fff;
+	font-weight: 600;
+	text-decoration: underline;
+}
+.bg_section a:hover{
+	color:#DFB975;
+}
+.golden_text_left_box,
+.golden_text_right_box {
+	filter: drop-shadow(0px 2.32506px 116.253px #000000);
+}
+.parallax_bg_1{
+	background-image: url('/wp-content/uploads/2024/10/gold.webp');
+}
+.golden_gold::before,
+.ground_investment::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	content: '';
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+}
+
+.vaulted_golden::before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	content: '';	
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+}
+.parallax_bg_2{
+	background-image: url('/wp-content/uploads/2024/10/dress.webp');
+}
+.parallax_bg_3{
+	background-image: url('/wp-content/uploads/2024/10/handshake.webp');
+}
+.pure_gold_section.as_feature_gold_bar {
+	padding-top: 0;
+	padding-bottom: 272px;
+}
+.as_feature_in {
+	position: relative;
+	padding: 180px 0;
+	overflow: hidden;
+}
+.pure_gold_section.as_feature_gold_bar .pure_gold_content_box {
+	max-width: 630px;
+}
+.as_feature_box {
+	max-width: 1100px;
+	margin: 0 auto;
+	border: 1px solid #DFB975;
+	border-radius: 24px;
+	text-align: center;
+	position: relative;
+	padding: 76px 100px 45px 100px;
+}
+.as_feature_ttl {
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 600;
+	color: #DFB975;
+	position: absolute;
+	top: -36px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #191718;
+	padding: 10px;
+}
+.as_feature_box_images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+/*.as_feature_left_bar_img,
+.as_feature_right_bar_img{
+	max-width: 300px;
+}*/
+.as_feature_left_bar_img {
+	position: absolute;
+	left: calc(21% - 490px);
+	top: -115%;
+}
+.as_feature_right_bar_img {
+	position: absolute;
+	right: calc(21% - 490px);
+	top: -115%;
+}
+.gold_bar_as_fearure_btm{
+	position: relative;
+	bottom: -40%;
+}
+.as_feature_img {
+	width: 33%;
+	align-self: center;
+	padding: 26px 0;
+}
+
+.as_feature_bottom_section {
+	max-width: 600px;
+	margin: 250px auto 0;
+	text-align: center;
+}
+.as_feature_btn {
+	margin-top: 60px;
+}
+
+
+/* FAQ question portion */
+
+.vaulted_faq {
+	position: relative;
+	padding-top: 50px;
+}
+.section_ttl h2 {
+	line-height: 48px;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 79px;
+	display: block;
+}
+.vaulted_faq .accordion-item {
+	background-color: transparent;
+	border: 1px solid #DFB975 !important;
+	margin-bottom: 15px;
+	border-radius: 24px !important;
+	cursor: pointer;
+}
+.vaulted_faq .accordion-button {
+	padding: 35px 40px;
+	font-size: 32px;
+	color: #DFB975;
+	background-color: transparent;
+	line-height: 32px;
+	font-weight: 600;
+}
+.vaulted_faq .accordion-button:not(.collapsed) {
+	color: #fff;
+	background-color: transparent;
+	box-shadow: none;
+	border-bottom: none;
+	padding:35px 40px 20px 40px;
+}
+.vaulted_faq .accordion-body {
+	padding: 1rem 1.25rem;
+	border-top: none;
+	padding-top: 0;
+	padding-left: 40px;
+	padding-bottom: 35px;
+}
+.vaulted_faq .accordion-button::after {
+	display: none;
+}
+/* end faq */
+.vaulted_faq_gold_var_img {
+	position: absolute;
+	bottom: -166px;
+	right: -103px;
+}
+.how_vaulted_work {
+	padding: 200px 0;
+	position: relative;
+}
+
+.how_vaulted_work .section_ttl {
+	max-width: 817px;
+}
+.vaulted_working_process_list {
+	position: relative;
+	max-width: 817px;
+	margin: 45px auto 0;
+}
+.vaulted_working_process_list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.vaulted_working_process_list ul li {
+	position: relative;
+	padding-left: 150px;
+	border-top: 1px solid #DFB975;
+	padding-top: 34px;
+	padding-bottom: 30px;
+}
+.vaulted_working_process_list ul li:last-child {
+	border-bottom: 1px solid #DFB975;
+}
+.vaulted_working_process_list ul li .list_number {
+	position: absolute;
+	left: 0;
+	top: 22px;
+	width: 110px;
+	height: 94px;
+	text-align: center;
+	display: inline-block;
+	background-image: url('/wp-content/uploads/2024/09/gold_coin.png');
+	font-size: 48px;
+	line-height: 88px;
+	font-weight: 600;
+	color: #171918;
+	background-position: center;
+}
+.vaulted_working_process_list ul .list_ttl {
+	font-size: 32px;
+	line-height: 36px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.vaulted_working_process_list ul .list_ttl span{
+	color:#DFB975;
+}
+
+/* most faq */
+.most_faq_section {
+	padding-top: 100px;
+}
+.most_faq_content_box {
+	max-width: 1100px;
+	margin: 0 auto;
+	border: 1px solid #DFB975;
+	border-radius: 24px;
+	text-align: center;
+	position: relative;
+	padding: 76px 100px 45px 100px;
+}
+.most_faq_ttl {
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: 600;
+	color: #DFB975;
+	position: absolute;
+	top: -36px;
+	left: 12%;
+	text-align: center;
+	background: #191718;
+	padding: 10px;
+}
+.most_faq_sub_ttl {
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 46px;
+	margin-bottom: 12px;
+}
+.vaulted_because_logo {
+	padding: 190px 0;
+}
+.because_logo_btn {
+	margin-top: 70px;
+	margin-bottom: 200px;
+}
+.virtual_store_content{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.virtual_store_content p {
+	font-size: 16px;
+	line-height: 20px;
+}
+.store_btn {
+	display: inline-block;
+}
+
+.hero_content_section{
+	position: relative;
+	padding: 160px 0 120px;
+}
+
+.hero_content_right_img {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.hero_content_left_img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.top_hero_content_box{
+	max-width: 625px;
+	margin: 0 auto;
+	text-align: center;
+}
+.top_hero_content_box h1{
+	font-size: 72px;
+	line-height: 68px;
+	font-weight: 600;
+	letter-spacing: -.03em;
+}
+
+.top_hero_content_box h1 span{
+	color:#DFB975;
+}
+
+.video_wrapper {
+	position: relative;
+}
+.video_wrapper video {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	border-radius: 24px;
+}
+
+.video_wrapper #animationContainer {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+.video_section{
+	position: relative;
+}
+.video_container{
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.video_top_left_gold_var {
+	position: absolute;
+	left: calc(-50% + 490px);
+	top: calc(-105% + 490px);
+}
+.video_top_right_gold_var {
+	position: absolute;
+	right: calc(-50% + 490px);
+	top: calc(-106% + 490px);
+}
+.video_btm_left_gold_var {
+	position: absolute;
+	left: 0;
+	bottom: -170px;
+}
+.video_btm_right_gold_var {
+	position: absolute;
+	right: 0;
+	bottom: -170px;
+}
+
+.pure_gold_section {
+	position: relative;
+	padding: 120px 0 195px;
+}
+.pure_gold_section_position{
+	position: relative;
+}
+.pure_gold_bar_position_left {
+	position: absolute;
+	left: -100px;
+	bottom: -200px;
+}
+.pure_gold_bar_position_right {
+	position: absolute;
+	right: -100px;
+	bottom: -200px;
+}
+.pure_gold_content_box {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.pure_gold_btn {
+	display: block;
+	margin-top: 55px;
+}
+
+.bcause_logo_section {
+	max-width: 800px;
+	margin: 0 auto;
+}
+.virtual_store {
+	padding-bottom: 100px;
+}
+.pure_gold_bar_position{
+	position: relative;
+	bottom: -100px;
+}
+
+.special_right {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.special_left {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.vaulted_because_logo svg {
+	max-width: 100%;
+}
+
+.faq_tab_video {
+	width: 100%;
+	max-width: 380px;
+	margin: 0 auto;
+	text-align: center;
+}
+.faq_tab_video > video {
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	border: 4px solid #807C75;
+	border-radius: 45px;
+}
+/*.gradiant_1 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100vh;
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+	z-index: -1;
+}
+.gradiant_2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100vh;
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+	z-index: -1;
+}*/
+
+/*.parallax_1,
+.parallax_2,
+.parallax_3{
+	position: relative;
+}*/
+/*.parallax_bg_1::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100vh;
+	content: '';
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+}
+.parallax_bg_2::before {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+	height: 100vh;
+	content: '';
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+}
+.parallax_bg_3::before {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 50%;
+	height: 100vh;
+	content: '';
+	background: rgba(25, 23, 24, 0.75);
+	filter: blur(145.316px);
+}*/
